@@ -11,6 +11,7 @@ function TestConnection {
     Param(
         [ValidateScript({Test-Connection -ComputerName $_ -Count 1 -Quiet -Protocol })]
         [string]$ComputerName
+        #Comment 
     )
 }
 
