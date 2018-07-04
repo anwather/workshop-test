@@ -4,7 +4,7 @@ function MyFunction {
     Write-Output "Hello $name"
     MyAge -Age $Age
     1..5 | ForEach-Object {New-Item -Path "$_.file"}
-
+    # Adding a comment
 }
 
 Function MyAge {
