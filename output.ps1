@@ -27,7 +27,7 @@ $object2 = [pscustomobject]@{
     ComputerName = "MyServer02"
     Disks = @(
         @{
-            Name = "C"
+            Name = "B"
             FreeSpace = "60%"
         },
         @{
