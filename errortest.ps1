@@ -1,4 +1,4 @@
-$myPath = "B:\Windows"
+$myPath = "E:\Windows"
 $test = "a"
 try {
     Get-ChildItem $myPath -ErrorAction Stop
